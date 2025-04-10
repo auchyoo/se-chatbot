@@ -1,0 +1,70 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_grading_policy
+  - ask_absence_policy
+  - ask_enrollment_policy
+  - thank
+  - inquire_bucet
+  - inquire_general_requirements
+  - inquire_transfer_students
+  - inquire_transfer_credits
+  - inquire_graduates_of_technical_vocational
+  - inquire_shifters
+  - inquire_returning_students
+  - inquire_undergraduate_foreign_students
+  - inquire_registration
+
+
+responses:
+
+  utter_greet:
+    - text: "Hello! I'm BUddy, your academic policy assistant. How can I help you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask me anytime about academic policies."
+
+  utter_ask_grading_policy:
+    - text: "The university uses a 5-point grading system. A grade of 1.0 is excellent, while 5.0 means failure."
+
+  utter_ask_absence_policy:
+    - text: "Students are allowed up to 20% unexcused absences. Exceeding this may result in a failing grade."
+
+  utter_ask_enrollment_policy:
+    - text: "Enrollment is done online through the student portal. Late enrollment is subject to approval and penalties."
+
+  utter_thank:
+    - text: "You're welcome! Let me know if you need anything else."
+
+  utter_bucet_info:
+    - text: "The Bicol University College Entrance Test (BUCET) is required for incoming first-year students. It consists of sub-tests in Language proficiency in English, Mathematics, Science, and Reading Comprehension. Admission is based on the BUCET score and your general weighted average (GWA) from Grade 9 to 11."
+  
+  utter_general_requirements:
+    - text: "To qualify for admission, incoming students must meet the following general requirements:\n1. Students from DepEd or other recognized high schools who are seniors expecting to graduate.\n2. Senior high school graduates who have not taken any college subjects.\n3. Holders of Philippines Educational Placement Test (PEPT)/Alternative Learning System (ALS) certificates."
+  
+  utter_transfer_students:
+    - text: "Transfer students must submit the following documents:\n1. Certification from the Dean/Director of availability of place in the College.\n2. Official Transcript of Records (OTR) from the last school attended.\n3. Certificate of honorable dismissal.\nAdditionally, eligibility is assessed based on GPA, interview results, and other factors."
+  
+  utter_transfer_credits:
+    - text: "Transfer credits will be accepted for courses from accredited institutions and cannot exceed 25% of the total units required for your course. A validation exam may be required for subjects with a grade below 2.5."
+  
+  utter_graduates_of_technical_vocational:
+    - text: "Graduates of technical-vocational courses may be admitted on a case-by-case basis, following the same requirements as transfer students, including document submission and evaluation."
+  
+  utter_shifters:
+    - text: "Shifters are internal transferees who want to change their course program. To shift, you must submit a letter of intent, certification from the Dean about slot availability, and your grades. A processing fee of Php 100.00 is required."
+  
+  utter_returning_students:
+    - text: "Returning students must present proof for dropping out (such as medical certificates). They may also need to present clearance forms and other supporting documents."
+  
+  utter_undergraduate_foreign_students:
+    - text: "Foreign students must submit the following documents:\n1. Original Transcript of Records (OTR)\n2. Personal Data\n3. Affidavit of Support\n4. Alien Certificate of Registration (ACR)\n5. TOEFL Results\n6. Application fee of $50\nAdditionally, foreign students must qualify through the BUCET or an international exam like SAT with a minimum score of 1200."
+  
+  utter_registration:
+    - text: "Registration must be done within the official period. Students are required to fill out forms, pay fees, and be cleared by the Dean. No student can register after the last day of late registration. Special students may register without a fine but must follow other regulations."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
