@@ -1,0 +1,97 @@
+version: "3.1"
+
+rules:
+- rule: Say hello back
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Provide grading policy
+  steps:
+    - intent: ask_grading_policy
+    - action: utter_ask_grading_policy
+
+- rule: Provide absence policy
+  steps:
+    - intent: ask_absence_policy
+    - action: utter_ask_absence_policy
+
+- rule: Provide enrollment policy
+  steps:
+    - intent: ask_enrollment_policy
+    - action: utter_ask_enrollment_policy
+
+- rule: Respond to thanks
+  steps:
+    - intent: thank
+    - action: utter_thank
+
+- rule: Respond to BUCET inquiry
+  steps:
+    - intent: inquire_bucet
+    - action: utter_bucet_info
+
+- rule: Respond to general requirements inquiry
+  steps:
+    - intent: inquire_general_requirements
+    - action: utter_general_requirements
+
+- rule: Respond to transfer students inquiry
+  steps:
+    - intent: inquire_transfer_students
+    - action: utter_transfer_students
+
+- rule: Respond to transfer credits inquiry
+  steps:
+    - intent: inquire_transfer_credits
+    - action: utter_transfer_credits
+
+- rule: Respond to technical-vocational graduates inquiry
+  steps:
+    - intent: inquire_graduates_of_technical_vocational
+    - action: utter_graduates_of_technical_vocational
+
+- rule: Respond to shifters inquiry     
+  steps:
+    - intent: inquire_shifters
+    - action: utter_shifters
+
+- rule: Respond to returning students inquiry
+  steps:
+    - intent: inquire_returning_students
+    - action: utter_returning_students
+
+- rule: Respond to undergraduate foreign students inquiry
+  steps:
+    - intent: inquire_undergraduate_foreign_students
+    - action: utter_undergraduate_foreign_students
+
+- rule: Respond to registration inquiry
+  steps:
+    - intent: inquire_registration
+    - action: utter_registration
+
+- rule: Respond to transfer students inquiry
+  steps:
+    - intent: inquire_transfer_students
+    - action: utter_transfer_students
+
+- rule: Respond to transfer credits inquiry
+  steps:
+    - intent: inquire_transfer_credits
+    - action: utter_transfer_credits
+
+- rule: Respond to technical-vocational graduates inquiry
+  steps:
+    - intent: inquire_graduates_of_technical_vocational
+    - action: utter_graduates_of_technical_vocational
+
+- rule: Respond to shifters inquiry
+  steps:
+    - intent: inquire_shifters
+    - action: utter_shifters

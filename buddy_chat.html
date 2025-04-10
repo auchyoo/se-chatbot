@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat with BUddy</title>
+  <script src="https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.min.js"></script>
+  <style>
+    body {
+      background: #f5f5f5;
+      margin: 0;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h2>BUddy – Your Academic Policy Assistant 🤖</h2>
+
+  <script>
+    window.onload = () => {
+      WebChat.default({
+        initPayload: "/greet",
+        customData: { language: "en" },
+        socketUrl: "http://localhost:5005",
+        title: "BUddy",
+        subtitle: "Ask me about grading, absences, enrollment, and more!",
+        inputTextFieldHint: "Type your question here...",
+        showCloseButton: true,
+        showFullScreenButton: true,
+        profileAvatar: "https://i.imgur.com/2sA1x0F.png",
+        params: {
+          storage: "session"
+        }
+      }, null);
+    };
+  </script>
+</body>
+</html>

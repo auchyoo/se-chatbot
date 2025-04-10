@@ -1,0 +1,17 @@
+{
+  "0": "ask_absence_policy",
+  "1": "ask_enrollment_policy",
+  "2": "ask_grading_policy",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "inquire_bucet",
+  "6": "inquire_general_requirements",
+  "7": "inquire_graduates_of_technical_vocational",
+  "8": "inquire_registration",
+  "9": "inquire_returning_students",
+  "10": "inquire_shifters",
+  "11": "inquire_transfer_credits",
+  "12": "inquire_transfer_students",
+  "13": "inquire_undergraduate_foreign_students",
+  "14": "thank"
+}

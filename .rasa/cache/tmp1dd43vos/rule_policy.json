@@ -1,0 +1,48 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_graduates_of_technical_vocational\"}}]": "utter_graduates_of_technical_vocational",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_graduates_of_technical_vocational\"}}, {\"prev_action\": {\"action_name\": \"utter_graduates_of_technical_vocational\"}, \"user\": {\"intent\": \"inquire_graduates_of_technical_vocational\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thank\"}}]": "utter_thank",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thank\"}}, {\"prev_action\": {\"action_name\": \"utter_thank\"}, \"user\": {\"intent\": \"thank\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_transfer_credits\"}}]": "utter_transfer_credits",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_transfer_credits\"}}, {\"prev_action\": {\"action_name\": \"utter_transfer_credits\"}, \"user\": {\"intent\": \"inquire_transfer_credits\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_undergraduate_foreign_students\"}}]": "utter_undergraduate_foreign_students",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_undergraduate_foreign_students\"}}, {\"prev_action\": {\"action_name\": \"utter_undergraduate_foreign_students\"}, \"user\": {\"intent\": \"inquire_undergraduate_foreign_students\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_bucet\"}}]": "utter_bucet_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_bucet\"}}, {\"prev_action\": {\"action_name\": \"utter_bucet_info\"}, \"user\": {\"intent\": \"inquire_bucet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_grading_policy\"}}]": "utter_ask_grading_policy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_grading_policy\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_grading_policy\"}, \"user\": {\"intent\": \"ask_grading_policy\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_general_requirements\"}}]": "utter_general_requirements",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_general_requirements\"}}, {\"prev_action\": {\"action_name\": \"utter_general_requirements\"}, \"user\": {\"intent\": \"inquire_general_requirements\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_absence_policy\"}}]": "utter_ask_absence_policy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_absence_policy\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_absence_policy\"}, \"user\": {\"intent\": \"ask_absence_policy\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_enrollment_policy\"}}]": "utter_ask_enrollment_policy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_enrollment_policy\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_enrollment_policy\"}, \"user\": {\"intent\": \"ask_enrollment_policy\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_registration\"}}]": "utter_registration",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_registration\"}}, {\"prev_action\": {\"action_name\": \"utter_registration\"}, \"user\": {\"intent\": \"inquire_registration\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_shifters\"}}]": "utter_shifters",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_shifters\"}}, {\"prev_action\": {\"action_name\": \"utter_shifters\"}, \"user\": {\"intent\": \"inquire_shifters\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_transfer_students\"}}]": "utter_transfer_students",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_transfer_students\"}}, {\"prev_action\": {\"action_name\": \"utter_transfer_students\"}, \"user\": {\"intent\": \"inquire_transfer_students\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_returning_students\"}}]": "utter_returning_students",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inquire_returning_students\"}}, {\"prev_action\": {\"action_name\": \"utter_returning_students\"}, \"user\": {\"intent\": \"inquire_returning_students\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_enrollment_policy\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_enrollment_policy\"}, \"user\": {\"intent\": \"ask_enrollment_policy\"}}]",
+      "predicting default action with intent back",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_enrollment_policy\"}}]"
+    ]
+  }
+}
